@@ -10,7 +10,8 @@
 git clone https://github.com/themasterid/homework_bot.git
 или
 
-git clone git@github.com:themasterid/homework_bot.git```
+git clone git@github.com:themasterid/homework_bot.git
+```
 
 Переходим в папку с ботом.
 
