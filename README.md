@@ -55,12 +55,10 @@ source venv/Scripts/activate
 pip install -r requirements.txt
 ```
 
-Создаем файл .env и прописываем токен телеграм-бота
+Создаем в корневой системе файл .env и прописываем токен телеграм-бота
 
 ```bash
-export PRACTICUM_TOKEN=<PRACTICUM_TOKEN>
-export TELEGRAM_TOKEN=<TELEGRAM_TOKEN>
-export CHAT_ID=<CHAT_ID>
+export TOKEN=<"токен">
 ```
 
 Запускаем бота
@@ -69,6 +67,4 @@ export CHAT_ID=<CHAT_ID>
 python homework.py
 ```
 
-Бот будет работать, и каждые 10 минут проверять статус вашей домашней работы.
-
-Автор: [Дмитрий Клепиков](https://github.com/themasterid) :+1:
+Бот будет работать, и каждый раз присылать милого котика.
